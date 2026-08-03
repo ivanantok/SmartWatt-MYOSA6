@@ -59,10 +59,50 @@ CT clamp measures current draw every 10 seconds. ESP32 calculates units consumed
 ---
 
 ## Repository Structure
-SmartWatt-MYOSA6/
-├── firmware/ — ESP32 Arduino code
-├── dashboard/ — Web dashboard 
-├── circuit/ — Wiring schematic and pin mapping
-├── images/ — Project photos
-├── video/ — Demo video link
-└── blog.md — MYOSA blog submission
+
+
+
+
+
+
+
+
+
+
+---
+
+## Setup Instructions
+
+1. Clone this repository
+2. Open `firmware/smartwatt/smartwatt.ino` in Arduino IDE
+3. Install required libraries — Adafruit APDS9960, Adafruit BMP085, MPU6050, Firebase ESP32 Client, Adafruit SSD1306
+4. Update WiFi credentials and Firebase URL in the code
+5. Select board — ESP32 Dev Module
+6. Upload to MYOSA board
+7. Connect phone to same WiFi network
+8. Open Firebase dashboard URL on phone
+
+---
+
+## Team
+
+| Name | Role | Branch |
+|---|---|---|
+| Ivana Anto | Hardware, Firmware, Demo | B.Tech ECE 3rd Year, CUSAT |
+| Nandagopal SB | Web Dashboard, Firebase | B.Tech IT 4th Year, CUSAT |
+
+**Faculty Mentor:** Dr. Anju Pradeep, Dept. of Electronics and Communication Engineering, CUSAT
+
+---
+
+## Competition
+
+**IEEE MYOSA 6.0** — Make Your Own Sensor Applications
+Organized by IEEE Sensors Council
+Blog Submission Phase — August 2026
+
+---
+
+## License
+
+MIT License — see LICENSE file for details
