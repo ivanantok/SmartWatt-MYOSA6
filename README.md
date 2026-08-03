@@ -59,3 +59,10 @@ CT clamp measures current draw every 10 seconds. ESP32 calculates units consumed
 ---
 
 ## Repository Structure
+SmartWatt-MYOSA6/
+├── firmware/ — ESP32 Arduino code
+├── dashboard/ — Web dashboard 
+├── circuit/ — Wiring schematic and pin mapping
+├── images/ — Project photos
+├── video/ — Demo video link
+└── blog.md — MYOSA blog submission
